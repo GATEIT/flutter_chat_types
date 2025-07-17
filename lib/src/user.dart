@@ -5,7 +5,7 @@ import 'package:meta/meta.dart';
 part 'user.g.dart';
 
 /// All possible roles user can have.
-enum Role { admin, agent, moderator, user }
+enum Role { Admin, Contact, Parent, Teacher }
 
 /// A class that represents user.
 @JsonSerializable()
